@@ -1,6 +1,7 @@
 package com.rafayel.objective.o.kanga.Processors.TextProcessor.ParseTree.Expressions;
 
 import com.rafayel.objective.o.kanga.Processors.ErrorProcessor.Error;
+import com.rafayel.objective.o.kanga.Processors.TextProcessor.Parser;
 import com.rafayel.objective.o.kanga.Processors.TextProcessor.Tokens.Token;
 import com.rafayel.objective.o.kanga.Processors.TextProcessor.Tokens.TokenTypes.*;
 
@@ -44,6 +45,11 @@ public class Operate {
         }
 
         return null;
+    }
+
+    public static Token declare(Token leftside, Token rightside) {
+        Parser.globalEnv.setName(leftside.get_value(), rightside);
+        return new Token(new NumberToken(), "0");
     }
 
     private static Token doPlus(Token leftSide, Token rightSide) {

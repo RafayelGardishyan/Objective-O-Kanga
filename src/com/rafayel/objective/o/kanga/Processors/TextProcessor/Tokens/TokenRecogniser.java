@@ -39,6 +39,8 @@ public class TokenRecogniser {
             return true;
         } else if (t.get_type() instanceof DivideToken) {
             return true;
+        } else if (t.get_type() instanceof EqualToken) {
+            return true;
         }
 
         return false;
