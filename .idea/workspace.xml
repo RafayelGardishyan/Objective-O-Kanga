@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="187fcf91-1950-45a4-aa35-bf911c37954f" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lexer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TerminatorToken.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/TerminatorToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenRecogniser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenRecogniser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParseTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/ParseTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/Token.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Expression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Expression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <folding>
+                <element signature="e#1284#1285#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1445#1446#0" expanded="true" />
+                <element signature="e#1482#1483#0" expanded="true" />
+                <element signature="e#1526#1527#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1593#1594#0" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Operate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Error.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/ErrorProcessor/Error.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>`</find>
+      <find>System</find>
+      <find>getInteger</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Object.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/IntegerObject.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/FloatObject.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/Character.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/CharacterObject.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/StringObject.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/BooleanObject.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/Token.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/TokenType.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/TokenTypes/Equals.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/FileProcessor/FileOpener.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Lexer.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/TokenRecogniser.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/TokenTypes/TokenType.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/TokenTypes/DivideToken.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/TokenTypes/EqualToken.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/TokenTypes/MinusToken.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/TokenTypes/MultiplyToken.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/TokenTypes/NumberToken.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/Tokens/TokenTypes/PlusToken.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/AbstractSyntaxTree/Expressions/BinaryOperator.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/AbstractSyntaxTree/Expressions/NumberBinaryOperator.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/AbstractSyntaxTree/PlusBinaryOperator.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/AbstractSyntaxTree/Expressions/AbstractClasses/NumberBinaryOperator.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/AbstractSyntaxTree/Expressions/PlusBinaryOperator.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/AbstractSyntaxTree/AbstractSyntaxTree.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/AbstractSyntaxTree/Expressions/Expression.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/TextProcessor/AbstractSyntaxTree/Expressions/BinaryOperator/AbstractClasses/NumberBinaryOperator.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/AbstractSyntaxTree/AbstractSyntaxTree.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/AbstractSyntaxTree/Expressions/Expression.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/AbstractSyntaxTree/Expressions/BinaryOperator/AbstractClasses/NumberBinaryOperator.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/AbstractSyntaxTree/Expressions/BinaryOperator/PlusBinaryOperator.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/ErrorProcessor/Error.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/ParseTree.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/Token.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/Terminator.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/TerminatorToken.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenRecogniser.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Expression.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kanga" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="Processors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="Processors" type="462c0819:PsiDirectoryNode" />
+              <item name="FileProcessor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="Processors" type="462c0819:PsiDirectoryNode" />
+              <item name="TextProcessor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="Processors" type="462c0819:PsiDirectoryNode" />
+              <item name="TextProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="ParseTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="Processors" type="462c0819:PsiDirectoryNode" />
+              <item name="TextProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="ParseTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Expressions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="Processors" type="462c0819:PsiDirectoryNode" />
+              <item name="TextProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="Tokens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="Processors" type="462c0819:PsiDirectoryNode" />
+              <item name="TextProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="Tokens" type="462c0819:PsiDirectoryNode" />
+              <item name="TokenTypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objective O'Kanga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objective O'Kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kanga" type="462c0819:PsiDirectoryNode" />
+              <item name="Processors" type="462c0819:PsiDirectoryNode" />
+              <item name="TextProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="Tokens" type="462c0819:PsiDirectoryNode" />
+              <item name="TokenTypes" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.rafayel.objective.o.kanga.TextProcessor.Tokens.TokenTypes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.rafayel.objective.o.kanga.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Objective O'Kanga" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="187fcf91-1950-45a4-aa35-bf911c37954f" name="Default" comment="" />
+      <created>1541266086310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541266086310</updated>
+      <workItem from="1541266092260" duration="1389000" />
+      <workItem from="1542648175479" duration="124000" />
+      <workItem from="1556381608871" duration="10672000" />
+      <workItem from="1556405146811" duration="3492000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15677000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/ErrorProcessor/Error.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Object.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/IntegerObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/FloatObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/CharacterObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/StringObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/BooleanObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/FileProcessor/FileOpener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Object.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/IntegerObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/FloatObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/CharacterObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/StringObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/BooleanObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/FileProcessor/FileOpener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/IntegerObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/FloatObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/CharacterObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/StringObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/DefaultObjects/BooleanObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Object.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/FileProcessor/FileOpener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/AbstractClasses/TokenType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/DivideToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/MinusToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/EqualToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/MultiplyToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/NumberToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/PlusToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/AbstractSyntaxTree/AbstractSyntaxTree.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/AbstractSyntaxTree/Expressions/BinaryOperator/AbstractClasses/NumberBinaryOperator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/AbstractSyntaxTree/Expressions/BinaryOperator/PlusBinaryOperator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/AbstractSyntaxTree/Expressions/Expression.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operatoe.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/ErrorProcessor/Error.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/ParseTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/Terminator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/Terminator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/TerminatorToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenRecogniser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1526#1527#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
