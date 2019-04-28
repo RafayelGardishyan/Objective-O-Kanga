@@ -12,7 +12,7 @@ public class Test {
     private List<String> testCode = new ArrayList<>();
 
     public void run(boolean debugInfo) throws Exception {
-        testCode.add("3 + 6 * 2 / 4 + 3");
+        testCode.add("x = 3 + 6 * 2 / 4 + 3");
 
         Lexer l = new Lexer(testCode);
 

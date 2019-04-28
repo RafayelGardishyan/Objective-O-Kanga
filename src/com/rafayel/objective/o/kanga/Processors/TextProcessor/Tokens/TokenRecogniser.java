@@ -23,6 +23,8 @@ public class TokenRecogniser {
             type = new EqualToken();
         } else if (Pattern.matches(new TerminatorToken().getRegex(), token)){
             type = new TerminatorToken();
+        } else if (Pattern.matches(new IdentifierToken().getRegex(), token)){
+            type = new IdentifierToken();
         }
 
         return type;
