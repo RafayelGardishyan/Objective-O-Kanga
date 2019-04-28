@@ -16,6 +16,7 @@ public class Parser {
     public Parser(List<Token> tokens) {
 
         boolean mergeState = false;
+        boolean priorityOperatorSequence = false;
 
         Token x = null;
 
@@ -32,16 +33,25 @@ public class Parser {
             if (isOperator(t) && operator == null) {
                 operator = t;
 
-                if (hasPriority(t) && !mergeState && tempx != null) {
+                if (!hasPriority(t) && priorityOperatorSequence ) {
+                    priorityOperatorSequence = false;
+                    mergeState = true;
+                }
+
+                if (hasPriority(t) && tempx != null) {
                     if (hasPriority(tokens.get(i - 2)))
                         continue;
 
-                    tempy = new Expression(tempx);
-                    tempx = null;
-                    x = null;
-                    operator = null;
-                    i -= 2;
-                    mergeState = !mergeState;
+                    if (!priorityOperatorSequence) {
+                        tempy = new Expression(tempx);
+
+                        tempx = null;
+                        x = null;
+                        operator = null;
+                        i -= 2;
+                        priorityOperatorSequence = true;
+                    }
+//                    mergeState = !mergeState;
 //                }
                 }
                     continue;
@@ -61,29 +71,21 @@ public class Parser {
                     x = null;
                     operator = null;
                 } else if (tempx != null && operator != null) {
-                    if (!hasPriority(operator)) {
-                        tempx = new Expression(
-                                tempx,
-                                new Token(operator),
-                                new Token(t)
-                        );
-                    } else {
-                        tempx = new Expression(
-                                new Token(t),
-                                new Token(operator),
-                                tempx
-                        );
-                    }
+                    tempx = new Expression(
+                            tempx,
+                            new Token(operator),
+                            new Token(t)
+                    );
                     operator = null;
                 } else if (x == null)
                     x = t;
 
-                if (tempy != null && tempx != null) {
+                if (mergeState) {
                     tempy.changeRight(tempx);
                     tempx = new Expression(tempy);
                     tempy = null;
                     operator = null;
-//                    mergeState = !mergeState;
+                    mergeState = false;
                 }
             }
 

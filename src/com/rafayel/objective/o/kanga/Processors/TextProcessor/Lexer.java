@@ -2,6 +2,8 @@ package com.rafayel.objective.o.kanga.Processors.TextProcessor;
 
 import com.rafayel.objective.o.kanga.Processors.TextProcessor.Tokens.Token;
 import com.rafayel.objective.o.kanga.Processors.TextProcessor.Tokens.TokenRecogniser;
+import com.rafayel.objective.o.kanga.Processors.TextProcessor.Tokens.TokenTypes.NumberToken;
+import com.rafayel.objective.o.kanga.Processors.TextProcessor.Tokens.TokenTypes.PlusToken;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,6 +23,12 @@ public class Lexer {
              tempStrings) {
             tokens.add(new Token(TokenRecogniser.GetType(token), token));
         }
+
+        tokens.addAll(Arrays.asList(
+                new Token(new NumberToken(), "0"),
+                new Token(new PlusToken(), "+"),
+                new Token(new NumberToken(), "0")
+        ));
     }
 
     public List<Token> getTokens() {

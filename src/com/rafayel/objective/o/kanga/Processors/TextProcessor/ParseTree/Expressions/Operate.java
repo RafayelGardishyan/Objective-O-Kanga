@@ -6,9 +6,9 @@ import com.rafayel.objective.o.kanga.Processors.TextProcessor.Tokens.TokenTypes.
 
 public class Operate {
     public static Token operate(Token leftSide, Token operator, Token rightSide) {
-        System.out.println(leftSide.get_value());
-        System.out.println(operator.get_value());
-        System.out.println(rightSide.get_value());
+//        System.out.println(leftSide.get_value());
+//        System.out.println(operator.get_value());
+//        System.out.println(rightSide.get_value());
 
         if (operator == null) {
             new Error("Error: Syntax error");

@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="187fcf91-1950-45a4-aa35-bf911c37954f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Objective O'Kanga/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Expression.class" afterPath="$PROJECT_DIR$/out/production/Objective O'Kanga/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Expression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Objective O'Kanga/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.class" afterPath="$PROJECT_DIR$/out/production/Objective O'Kanga/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Objective O'Kanga/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.class" afterPath="$PROJECT_DIR$/out/production/Objective O'Kanga/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Objective O'Kanga/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.class" afterPath="$PROJECT_DIR$/out/production/Objective O'Kanga/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Objective O'Kanga/com/rafayel/objective/o/kanga/Test.class" afterPath="$PROJECT_DIR$/out/production/Objective O'Kanga/com/rafayel/objective/o/kanga/Test.class" />
       <change beforePath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Main.java" afterPath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Expression.java" afterPath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Expression.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.java" afterPath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.java" />
       <change beforePath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.java" afterPath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.java" />
       <change beforePath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.java" afterPath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.java" />
       <change beforePath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Test.java" afterPath="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Test.java" />
@@ -25,8 +25,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="441">
+              <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="273">
+              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +49,13 @@
       <file leaf-file-name="Lexer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#556#563#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +64,7 @@
       <file leaf-file-name="TerminatorToken.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/TerminatorToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="189">
               <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
                 <element signature="e#283#284#0" expanded="true" />
@@ -86,7 +89,7 @@
       <file leaf-file-name="ParseTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/ParseTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="210">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="31" />
+            <state relative-caret-position="-756">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,7 +125,7 @@
       <file leaf-file-name="Expression.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="441">
               <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding />
             </state>
@@ -132,8 +135,8 @@
       <file leaf-file-name="Operate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" column="50" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="50" />
+            <state relative-caret-position="155">
+              <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,14 +209,14 @@
         <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/ParseTree.java" />
         <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/Token.java" />
         <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/Terminator.java" />
-        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.java" />
         <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/TerminatorToken.java" />
         <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenRecogniser.java" />
         <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Expression.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.java" />
         <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.java" />
+        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.java" />
         <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Test.java" />
         <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.java" />
       </list>
     </option>
   </component>
@@ -245,6 +248,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,9 +343,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -371,10 +374,10 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.rafayel.objective.o.kanga.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="true" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -421,12 +424,13 @@
       <workItem from="1542648175479" duration="124000" />
       <workItem from="1556381608871" duration="10672000" />
       <workItem from="1556405146811" duration="3642000" />
-      <workItem from="1556457497022" duration="3555000" />
+      <workItem from="1556457497022" duration="3613000" />
+      <workItem from="1556467576622" duration="1887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19382000" />
+    <option name="totallyTimeSpent" value="21327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -441,11 +445,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26476908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26852846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -489,8 +493,8 @@
         <state relative-caret-position="63">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="false" />
+            <element signature="e#163#164#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,9 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,9 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,9 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,8 +627,8 @@
         <state relative-caret-position="63">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="false" />
+            <element signature="e#163#164#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/Token.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -669,7 +653,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/ParseTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="210">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -681,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Tokens/TokenTypes/TerminatorToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="189">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
             <element signature="e#283#284#0" expanded="true" />
@@ -694,16 +678,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="441">
           <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/ParseTree/Expressions/Operate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="50" />
+        <state relative-caret-position="155">
+          <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#563#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -712,28 +729,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rafayel/objective/o/kanga/Processors/TextProcessor/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="31" />
+        <state relative-caret-position="273">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

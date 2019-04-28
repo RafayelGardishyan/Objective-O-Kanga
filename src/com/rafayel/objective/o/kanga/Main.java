@@ -10,7 +10,9 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         Test t = new Test();
-        t.run();
+        if (args.length == 0)
+            args = new String[]{"false"};
+        t.run(Boolean.parseBoolean(args[0]));
 
     }
 }

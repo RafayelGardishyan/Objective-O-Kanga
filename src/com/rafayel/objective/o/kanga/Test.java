@@ -11,19 +11,21 @@ import java.util.List;
 public class Test {
     private List<String> testCode = new ArrayList<>();
 
-    public void run() throws Exception {
+    public void run(boolean debugInfo) throws Exception {
         testCode.add("3 + 6 * 2 / 4 + 3");
 
         Lexer l = new Lexer(testCode);
 
-        System.out.println("Lexer output:");
+        if (debugInfo) {
+            System.out.println("Lexer output:");
 
-        for (Token t:
-             l.getTokens()) {
-            System.out.println("Token -> Type: " + t.get_type().getStringName() + " - Value: " + t.get_value());
+            for (Token t :
+                    l.getTokens()) {
+                System.out.println("Token -> Type: " + t.get_type().getStringName() + " - Value: " + t.get_value());
+            }
+
+            System.out.println("Parser output");
         }
-
-        System.out.println("Parser output");
         Parser p = new Parser(l.getTokens());
     }
 }
