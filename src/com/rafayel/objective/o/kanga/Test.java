@@ -11,8 +11,8 @@ import java.util.List;
 public class Test {
     private List<String> testCode = new ArrayList<>();
 
-    public void run() {
-        testCode.add("6 * 2 / 4");
+    public void run() throws Exception {
+        testCode.add("3 + 6 * 2 / 4 + 3");
 
         Lexer l = new Lexer(testCode);
 

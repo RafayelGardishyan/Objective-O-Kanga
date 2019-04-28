@@ -13,16 +13,16 @@ import static com.rafayel.objective.o.kanga.Processors.TextProcessor.Tokens.Toke
 public class Parser {
     private ParseTree tree;
 
-    public Parser(List<Token> tokens){
+    public Parser(List<Token> tokens) {
 
-//        boolean mergeState = false;
+        boolean mergeState = false;
 
         Token x = null;
 
         Token operator = null;
 
         Expression tempx = null;
-//        Expression tempy = null;
+        Expression tempy = null;
 //        Expression current = null;
 
         for (int i = 0; i < tokens.size(); i++) {
@@ -32,59 +32,69 @@ public class Parser {
             if (isOperator(t) && operator == null) {
                 operator = t;
 
-// TODO: Fix operator ordering //Check whether the operator has priority
-//                if (hasPriority(t) && !mergeState && tempx != null) {
-//                    if (hasPriority(tokens.get(i-2)))
-//                        continue;
-//
-//                    tempy = new Expression(tempx);
-//                    tempx = null;
-//                    x = null;
-//                    operator = null;
-//                    i -= 2;
-//                    mergeState = !mergeState;
+                if (hasPriority(t) && !mergeState && tempx != null) {
+                    if (hasPriority(tokens.get(i - 2)))
+                        continue;
+
+                    tempy = new Expression(tempx);
+                    tempx = null;
+                    x = null;
+                    operator = null;
+                    i -= 2;
+                    mergeState = !mergeState;
 //                }
-                continue;
-            } else if (isOperator(t) && operator != null) {
-                new Error("Error: Syntax error");
-                System.exit(1);
+                }
+                    continue;
+                } else if (isOperator(t) && operator != null) {
+                    new Error("Error: Syntax error");
+                    System.exit(1);
+                }
+
+
+                //Sort the token in expressions
+                if (tempx == null && operator != null && x != null) {
+                    tempx = new Expression(
+                            new Token(x),
+                            new Token(operator),
+                            new Token(t)
+                    );
+                    x = null;
+                    operator = null;
+                } else if (tempx != null && operator != null) {
+                    if (!hasPriority(operator)) {
+                        tempx = new Expression(
+                                tempx,
+                                new Token(operator),
+                                new Token(t)
+                        );
+                    } else {
+                        tempx = new Expression(
+                                new Token(t),
+                                new Token(operator),
+                                tempx
+                        );
+                    }
+                    operator = null;
+                } else if (x == null)
+                    x = t;
+
+                if (tempy != null && tempx != null) {
+                    tempy.changeRight(tempx);
+                    tempx = new Expression(tempy);
+                    tempy = null;
+                    operator = null;
+//                    mergeState = !mergeState;
+                }
             }
 
+            //Define the parse tree
+            tree = new ParseTree(tempx);
 
-            //Sort the token in expressions
-            if (tempx == null && operator != null && x != null) {
-                tempx = new Expression(
-                        new Token(x),
-                        new Token(operator),
-                        new Token(t)
-                );
-                x = null;
-                operator = null;
-            } else if (tempx != null && operator != null) {
-                tempx = new Expression(
-                        tempx,
-                        new Token(operator),
-                        new Token(t)
-                );
-                operator = null;
-            } else if (x == null)
-                x = t;
+            //Evaluate
+            tree.evaluate();
 
-//TODO: Fix merging            //Check if has to be merged
-//            if (tempy != null && tempx != null) {
-//                tempy.changeRight(tempx);
-//                tempx = new Expression(tempy);
-//                tempy = null;
-//                operator = null;
-//                mergeState = !mergeState;
-//            }
         }
 
-        //Define the parse tree
-        tree = new ParseTree(tempx);
-
-        //Evaluate
-        tree.evaluate();
-
     }
-}
+
+

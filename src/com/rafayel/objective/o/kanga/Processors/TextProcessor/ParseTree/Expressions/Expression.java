@@ -18,8 +18,8 @@ public class Expression {
         m_operator = operator;
     }
 
-    public Expression(Expression leftside, Token operator, Expression rightSide) {
-        m_leftsideex = leftside;
+    public Expression(Token leftside, Token operator, Expression rightSide) {
+        m_leftsideto = leftside;
         m_rightSideex = rightSide;
         m_operator = operator;
     }
@@ -38,34 +38,24 @@ public class Expression {
         m_leftsideto = expression.m_leftsideto;
     }
 
-    public void changeLeft(Expression left) {
-        m_leftsideex = left;
-    }
-
-    public void changeLeft(Token left) {
-        m_leftsideto = left;
-    }
-
     public void changeRight(Expression right) {
         m_rightSideex = right;
+        m_rightSideto = null;
     }
 
-    public void changeRight(Token right) {
-        m_rightSideto = right;
-    }
-
-    public Token getRight(){
-        return m_rightSideto;
-    }
 
 
     public Token visit() {
-        if (m_leftsideto != null){
+        if (m_leftsideto != null && m_rightSideex == null){
             return Operate.operate(m_leftsideto, m_operator, m_rightSideto);
         }
 
         if (m_leftsideex != null && m_rightSideto != null){
             return Operate.operate(m_leftsideex.visit(), m_operator, m_rightSideto);
+        }
+
+        if (m_rightSideex != null && m_leftsideto != null) {
+            return Operate.operate(m_leftsideto, m_operator, m_rightSideex.visit());
         }
 
         Token leftEval = m_leftsideex.visit();
