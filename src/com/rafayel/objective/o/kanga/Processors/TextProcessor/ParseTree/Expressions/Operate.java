@@ -15,6 +15,9 @@ public class Operate {
             new Error("Error: Syntax error");
         }
 
+        leftSide = checkName(leftSide);
+        rightSide = checkName(rightSide);
+
         if (leftSide.get_type().getClass() != rightSide.get_type().getClass()) {
             new Error(
                     "Error: Cant operate with "
@@ -45,6 +48,13 @@ public class Operate {
         }
 
         return null;
+    }
+
+    private static Token checkName(Token t) {
+        if (t.get_type() instanceof IdentifierToken)
+            t = Parser.globalEnv.getName(t.get_value());
+
+        return t;
     }
 
     public static Token declare(Token leftside, Token rightside) {

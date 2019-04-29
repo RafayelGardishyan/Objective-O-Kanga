@@ -21,6 +21,12 @@ public class Parser {
 
         globalEnv = new Environment();
 
+        parse(tokens);
+
+    }
+
+    public Integer parse(List<Token> tokens) {
+
         boolean mergeState = false;
         boolean priorityOperatorSequence = false;
 
@@ -36,7 +42,7 @@ public class Parser {
         for (int i = 0; i < tokens.size(); i++) {
             Token t = tokens.get(i);
 
-            if (t.get_type() instanceof TerminatorToken){
+            if (t.get_type() instanceof TerminatorToken) {
                 tempz.changeRight(tempx);
                 tempx = new Expression(tempz);
             }
@@ -46,7 +52,7 @@ public class Parser {
                 operator = t;
 
                 if (operator.get_type() instanceof EqualToken) {
-                    tempz = new Expression(x, operator,new Expression(
+                    tempz = new Expression(x, operator, new Expression(
                             new Token(new NumberToken(), "0"),
                             new Token(new NumberToken(), "0"),
                             new Token(new NumberToken(), "0")
@@ -55,7 +61,7 @@ public class Parser {
                     operator = null;
                 }
 
-                if (!hasPriority(t) && priorityOperatorSequence ) {
+                if (!hasPriority(t) && priorityOperatorSequence) {
                     priorityOperatorSequence = false;
                     mergeState = true;
                 }
@@ -76,49 +82,52 @@ public class Parser {
 //                    mergeState = !mergeState;
 //                }
                 }
-                    continue;
-                } else if (isOperator(t) && operator != null) {
-                    new Error("Error: Syntax error");
-                    System.exit(1);
-                }
-
-
-                //Sort the token in expressions
-                if (tempx == null && operator != null && x != null) {
-                    tempx = new Expression(
-                            new Token(x),
-                            new Token(operator),
-                            new Token(t)
-                    );
-                    x = null;
-                    operator = null;
-                } else if (tempx != null && operator != null) {
-                    tempx = new Expression(
-                            tempx,
-                            new Token(operator),
-                            new Token(t)
-                    );
-                    operator = null;
-                } else if (x == null)
-                    x = t;
-
-                if (mergeState) {
-                    tempy.changeRight(tempx);
-                    tempx = new Expression(tempy);
-                    tempy = null;
-                    operator = null;
-                    mergeState = false;
-                }
+                continue;
+            } else if (isOperator(t) && operator != null) {
+                new Error("Error: Syntax error");
+                System.exit(1);
             }
 
-            //Define the parse tree
-        ParseTree tree = new ParseTree(tempx);
 
-            //Evaluate
-            tree.evaluate();
+            //Sort the token in expressions
+            if (tempx == null && operator != null && x != null) {
+                tempx = new Expression(
+                        new Token(x),
+                        new Token(operator),
+                        new Token(t)
+                );
+                x = null;
+                operator = null;
+            } else if (tempx != null && operator != null) {
+                tempx = new Expression(
+                        tempx,
+                        new Token(operator),
+                        new Token(t)
+                );
+                operator = null;
+            } else if (x == null)
+                x = t;
 
+            if (mergeState) {
+                tempy.changeRight(tempx);
+                tempx = new Expression(tempy);
+                tempy = null;
+                operator = null;
+                mergeState = false;
+            }
         }
 
+        //Define the parse tree
+        ParseTree tree = new ParseTree(tempx);
+
+        //Evaluate
+        tree.evaluate();
+
+        return 0;
+
     }
+
+
+}
 
 

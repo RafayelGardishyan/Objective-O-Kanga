@@ -13,7 +13,9 @@ public class Test {
     private List<String> testCode = new ArrayList<>();
 
     public void run(boolean debugInfo) throws Exception {
-        testCode.add("x = 3 + 6 * 2 / 4 + 3 ;");
+        testCode.add("x = 3 + 6 * 2 / 4 + 3");
+        testCode.add("y = x + 4");
+        testCode.add("z = 3 * y - 2 * x");
 
         Lexer l = new Lexer(testCode);
 
@@ -21,14 +23,18 @@ public class Test {
             System.out.println("Lexer output:");
 
             for (Token t :
-                    l.getTokens()) {
+                    l.getAllTokens()) {
                 System.out.println("Token -> Type: " + t.get_type().getStringName() + " - Value: " + t.get_value());
             }
 
 
             System.out.println("Parser output");
         }
+
         Parser p = new Parser(l.getTokens());
+
+        while (l.isNext())
+            p.parse(l.getTokens());
 
         if (debugInfo) {
             System.out.println("Environment");
