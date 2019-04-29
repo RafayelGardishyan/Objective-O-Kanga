@@ -12,7 +12,8 @@ public class ParseTree {
 
     public Integer evaluate() {
         Token result = expression.visit();
-        System.out.println(result.get_value());
+        if (!result.get_value().equals("null"))
+            System.out.println(result.get_value());
         return 0;
     }
 

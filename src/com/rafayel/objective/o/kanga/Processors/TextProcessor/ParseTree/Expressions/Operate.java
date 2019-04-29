@@ -59,7 +59,7 @@ public class Operate {
 
     public static Token declare(Token leftside, Token rightside) {
         Parser.globalEnv.setName(leftside.get_value(), rightside);
-        return new Token(new NumberToken(), "0");
+        return new Token(new NumberToken(), "null");
     }
 
     private static Token doPlus(Token leftSide, Token rightSide) {

@@ -12,7 +12,7 @@ import java.util.Set;
 public class Test {
     private List<String> testCode = new ArrayList<>();
 
-    public void run(boolean debugInfo) throws Exception {
+    public void run(boolean debugInfo) {
         testCode.add("x = 3 + 6 * 2 / 4 + 3");
         testCode.add("y = x + 4");
         testCode.add("z = 3 * y - 2 * x");
@@ -28,7 +28,7 @@ public class Test {
             }
 
 
-            System.out.println("Parser output");
+            System.out.println("Parser output:");
         }
 
         Parser p = new Parser(l.getTokens());
@@ -37,7 +37,7 @@ public class Test {
             p.parse(l.getTokens());
 
         if (debugInfo) {
-            System.out.println("Environment");
+            System.out.println("Environment:");
             Set<String> keySet = Parser.globalEnv.getNamesTable().keySet();
             for (String name:
                  keySet) {
